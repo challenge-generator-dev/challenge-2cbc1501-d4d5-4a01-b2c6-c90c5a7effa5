@@ -1,0 +1,24 @@
+name: reto
+description: Reto de aprendizaje.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.12.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  build_runner: 2.17.1
+  flutter_riverpod: 2.6.1
+  freezed: 3.2.5
+  freezed_annotation: 2.4.4
+  http: 1.6.0
+  json_serializable: 6.15.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
